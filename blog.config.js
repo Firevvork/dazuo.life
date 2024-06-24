@@ -1,8 +1,8 @@
 const BLOG = {
   title: "瓦灯的BLOG",
-  author: "Warden Wong",
+  author: "Warden",
   email: "warden@blogflyer.com",
-  link: "https://nobelium.vercel.app",
+  link: "https://dazuo.life",
   description: "是泥土，也可以发光。",
   lang: "zh-CN", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: "Asia/Shanghai", // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
