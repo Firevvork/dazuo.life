@@ -26,10 +26,10 @@ export default function MyApp({ Component, pageProps, config, locale }) {
         />
         <script type="text/javascript">
           (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-          })(window, document, "clarity", "script", "myltoo3yvk");
+            c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments) };
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "myltoo3yvk");
         </script>
       </Head>
       <ConfigProvider value={config}>
@@ -62,8 +62,8 @@ MyApp.getInitialProps = async (ctx) => {
     typeof window === "object"
       ? await fetch("/api/config").then((res) => res.json())
       : await import("@/lib/server/config").then(
-          (module) => module.clientConfig
-        );
+        (module) => module.clientConfig
+      );
 
   prepareDayjs(config.timezone);
 
