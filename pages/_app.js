@@ -24,6 +24,13 @@ export default function MyApp({ Component, pageProps, config, locale }) {
           name="google-site-verification"
           content="iPTb6UKtkY5m0jieF2_FLdwVaDpZ4Shmv7EUtU16dMM"
         />
+        <script type="text/javascript">
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "myltoo3yvk");
+        </script>
       </Head>
       <ConfigProvider value={config}>
         <Scripts />
